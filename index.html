@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="/" id="form"><h1>Registration</h1>
+        <div class="input-control">
+            <label for="username">Username</label>
+            <input id="username" name="username" title="Enter Username" type="text" >
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="username" title="Enter Email" type="email" >
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="password">Password</label>
+            <input id="password" name="password" title="Enter Password" type="password">
+            <!-- <h4 class="password">Password:<input type="password" value="" class="password1" id="myInput" placeholder="Enter your password"></h4>  -->
+        
+        <h4 class="display"><input type="checkbox" class="passwords" onclick="myFunction()"> Show password</h4>
+            <div class="error"></div>
+
+            </div>
+
+        <div class="input-control">
+            <label for="password">Confirm Password</label>
+            <input id="password2" name="password2" title="Confirm Password" type="password">
+            <div class="error"></div>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+    </div>
+
+    <footer>
+        <div class="cite">
+            <!-- <p><cite>HTML crash course</cite> by Qudus</p> -->
+            <small class="cite1"><cite>Posted by</cite> Qudus</small>
+            <!-- <small class="cite1"><cite>Posted</cite> by Qudus <cite>on the 1st of March</cite></small> -->
+            <br>
+            <br>
+            <hr>
+            <br>
+            <p><cite> Copyright &copy; 2023,</cite> MYKEALL Website</p>
+            
+        </div>
+    </footer>
+</body>
+</html>
